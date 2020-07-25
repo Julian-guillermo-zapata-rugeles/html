@@ -6,6 +6,9 @@ input{
   padding: inherit;
   margin-bottom: 15px;
 }
+input:hover{
+  border-color:black;
+}
 
 #correo{
   margin-top: 20px;
@@ -27,5 +30,17 @@ fieldset{
   font-size: 15px;
   padding: 5px;
   border-radius:5px;
+}
 
+#borrar{
+  background-color: red;
+  color: white;
+  font-size: 15px;
+  padding: 5px;
+  border-radius:5px;
+}
+
+
+#boton-subir:hover{
+  background-color: #01997d;
 }
