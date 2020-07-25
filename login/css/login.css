@@ -1,0 +1,31 @@
+body{
+  background-image: url('../img/fondo.jpg');
+}
+
+input{
+  padding: inherit;
+  margin-bottom: 15px;
+}
+
+#correo{
+  margin-top: 20px;
+}
+
+fieldset{
+  background-color:white;
+  opacity: 0.9;
+  padding: 80px;
+  width: 0px;
+  margin-top: 120px;
+  border-radius: 15px;
+  border-width: 2px;
+  border-color: gray;
+}
+#boton-subir{
+  background-color: #00994d;
+  color: white;
+  font-size: 15px;
+  padding: 5px;
+  border-radius:5px;
+
+}
