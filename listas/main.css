@@ -1,0 +1,14 @@
+inside{
+  list-style-type: circle;
+}
+
+.listaImagen{
+  list-style-image: url('galletitas.jpeg');
+}
+
+h2{
+  background-color: orange;
+  padding: 10px;
+  border-radius: 5px;
+  color: white;
+}
