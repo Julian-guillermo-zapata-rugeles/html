@@ -1,0 +1,26 @@
+.subrayado{
+  text-decoration:underline;
+}
+.tachado{
+  text-decoration:line-through;
+}
+
+fieldset{
+  margin: 0px;
+  width: 500px;
+}
+
+.blink {
+  animation: blink-animation 1s steps(5, start) infinite;
+  -webkit-animation: blink-animation 1s steps(5, start) infinite;
+}
+@keyframes blink-animation {
+  to {
+    color: red;
+  }
+}
+@-webkit-keyframes blink-animation {
+  to {
+    color: green;
+  }
+}
